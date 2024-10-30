@@ -1,0 +1,284 @@
+body{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f5f5f5;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #8f0fe4;
+    z-index: 1000;
+    padding: 10px 0;
+    text-align: right;
+}
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.header{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px;
+    background-color: white;
+    margin-top: 50px;
+    gap: 30px; 
+}
+
+.header-text{
+    max-width: 50%;
+}
+.header-text h1{
+    font-size: 48px;
+    margin: 0;
+}
+.header-text p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color: rgb(42, 42, 187);
+    color:white ;
+}
+
+.item {
+    flex: 1 1 25%;
+    margin: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.tulisan{
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(133, 133, 115);
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.card {
+    display: flex;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    padding: 20px;
+    width: 48%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.title {
+    text-align: left;
+    font-size: 38px;
+    color: #82c4f8;
+    font-family: 'Comic Sans MS', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.image img {
+    width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 40px;
+}
+
+.text-content {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.vision, .mission {
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding-right: 30px;
+   
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+p, ol {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+.goals {
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.goals h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.goals ol {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.pengajar{
+    font-size: 60px;
+    margin-top:40px ;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(113, 25, 25);
+
+}
+.conta {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 300px; /* Ukuran gambar bisa disesuaikan */
+    height: 300px;
+    object-fit: cover;
+    border-radius: 0; /* Membuat gambar menjadi lingkaran */
+}
+
+.team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+}
+
+.team-member p {
+    color: #777;
+    font-size: 1em;
+}
+.tulisan1 {
+    text-align: center;
+    color: blue;
+    font-size: 60px;
+    margin: 20px 0;
+    font-weight: bold;
+    
+}
+
+.career-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.career-item {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 0px;
+    width: 200px;
+}
+.partnership-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.partnership-item {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.partnership-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.partnership-item h3 {
+    margin: 10px 0 5px;
+}
+
+.partnership-item p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+}
+.tulisan2 {
+    text-align: center;
+    color: blue;
+    font-size: 2.5em;
+    margin: 30px 0;
+}
